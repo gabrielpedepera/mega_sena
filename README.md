@@ -1,7 +1,7 @@
 # MegaSena
 
 A Ruby gem to generate brazilian lottery drawings, based
-on course *Build a Ruby Gem* of @brandonhilkert.
+on course **Build a Ruby Gem** of @brandonhilkert.
 
 ## Installation
 
@@ -22,7 +22,7 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-MegaSena::Drawing.new.draw # => [23, 2, 12, 4, 3, 26]
+MegaSena::Drawing.new.draw # => [23, 2, 12, 4, 3, 26, 59]
 ```
 
 ## Contributing
