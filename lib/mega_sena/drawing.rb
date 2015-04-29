@@ -3,7 +3,7 @@ module MegaSena
     NUMBERS = 6
 
     def draw
-      NUMBERS.times.map { single_draw }
+      (NUMBERS.times.map { single_draw }).sort
     end
 
     private

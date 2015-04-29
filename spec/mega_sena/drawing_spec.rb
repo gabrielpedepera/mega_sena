@@ -30,6 +30,14 @@ module MegaSena
           expect(drawing).to be > 0
         end
       end
+
+      it "returns an array ordened" do
+        value = 0
+        draw.each do |drawing|
+          expect(drawing).to be > value
+          value = drawing
+        end
+      end
     end
   end
 end
