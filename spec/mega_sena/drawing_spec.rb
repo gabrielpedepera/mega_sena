@@ -31,12 +31,16 @@ module MegaSena
         end
       end
 
-      it "returns an array ordened" do
+      it "returns an array orderly" do
         value = 0
         draw.each do |drawing|
           expect(drawing).to be > value
           value = drawing
         end
+      end
+
+      it "returns an array with unique elements" do
+        expect(draw.uniq.size).to be == draw.size
       end
 
     end
