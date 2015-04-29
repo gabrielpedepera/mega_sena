@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Gabriel Pereira"]
   spec.email         = ["gabrielgibson@gmail.com"]
   spec.summary       = %q{Generate random numbers to Brazilian Lottery (MegaSena)}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.description   = ""
   spec.homepage      = ""
   spec.license       = "MIT"
 
