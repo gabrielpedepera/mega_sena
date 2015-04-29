@@ -38,6 +38,7 @@ module MegaSena
           value = drawing
         end
       end
+
     end
   end
 end

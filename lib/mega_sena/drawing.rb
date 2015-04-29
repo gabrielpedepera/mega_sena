@@ -1,5 +1,6 @@
 module MegaSena
   class Drawing
+
     NUMBERS = 6
 
     def draw
