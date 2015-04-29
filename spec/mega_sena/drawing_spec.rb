@@ -19,9 +19,15 @@ module MegaSena
         end
       end
 
-      it "each element is less than 60" do
+      it "each element is less or equal than 60" do
         draw.each do |drawing|
-          expect(drawing).to be < 60
+          expect(drawing).to be <= 60
+        end
+      end
+
+      it "each element is greater than 0" do
+        draw.each do |drawing|
+          expect(drawing).to be > 0
         end
       end
     end

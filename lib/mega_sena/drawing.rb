@@ -9,7 +9,7 @@ module MegaSena
     private
 
     def single_draw
-      rand(0...60)
+      rand(1..60)
     end
   end
 end
